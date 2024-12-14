@@ -1,0 +1,28 @@
+{
+    "name": "onpremise_sql_server",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "SqlServer",
+        "typeProperties": {
+            "server": "AQ1\\SQLEXPRESS",
+            "database": "AdventureWorksLT2022",
+            "encrypt": "mandatory",
+            "trustServerCertificate": true,
+            "authenticationType": "SQL",
+            "userName": "sa",
+            "password": {
+                "type": "AzureKeyVaultSecret",
+                "store": {
+                    "referenceName": "AzureKeyVault1",
+                    "type": "LinkedServiceReference"
+                },
+                "secretName": "password"
+            }
+        },
+        "connectVia": {
+            "referenceName": "SHIR",
+            "type": "IntegrationRuntimeReference"
+        }
+    }
+}

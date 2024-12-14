@@ -1,0 +1,23 @@
+{
+    "now": "2024-11-27T05:42:32.693Z",
+    "perfNow": 64815,
+    "diagnosticCorrelation": "88b8fd2a-0f60-4447-b37f-fa35ae52b870",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.110124.1",
+        "environmentType": 3,
+        "resourceName": "real-time-adf-demo",
+        "resourceRegion": "centralindia",
+        "resourceGroup": "real-time-data-engineering-project",
+        "subscriptionId": "3e6a9e11-356d-44d1-a4ad-480cc9d8e41f",
+        "sessionId": "X6VFLi50yDJVfV6p+q7z36",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "8fda0be3-2336-4262-814b-794a3ce8bc27"
+    },
+    "additionalInfo": {
+        "selectedResource": "copy_all_tables",
+        "selectedResourceType": "pipeline"
+    }
+}

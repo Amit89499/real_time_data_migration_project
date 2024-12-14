@@ -1,0 +1,6 @@
+selected resource name:		copy_all_tables
+selected resource type:		pipeline
+factory name:			real-time-adf-demo
+factory location:		centralindia
+subscription id:		3e6a9e11-356d-44d1-a4ad-480cc9d8e41f
+time of download (UTC):		Wed, 27 Nov 2024 05:42:32 GMT
